@@ -39,3 +39,12 @@ const changeBackground = function(){
 
 document.getElementById('toggle').addEventListener('click', changeBackground)
 
+biggy = document.querySelector('#biggify')
+
+
+
+const hover = function(){
+    biggy.style.width = '200px'
+
+}
+biggy.addEventListener('mouseover', hover)
